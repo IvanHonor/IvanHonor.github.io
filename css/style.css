@@ -1,0 +1,214 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 51px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    /* position: relative; */
+    margin-top: 51px;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    position:absolute;
+    width: 100%;
+    /* z-index: 2; */
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+    
+}
+
+.subheader .subheader_oficial {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    margin-top: 17px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-align-last: right;
+    margin-top: 8px;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px 0px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../images/main_imj.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+   /*  transform:translateY(-84px);
+    z-index: 1; */
+}
+
+.promo .promo_header {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.reasons {
+    min-height: 900px;
+    padding: 71px 0 68px 0;
+}
+
+.reasons .label {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.reasons .title {
+    margin: 38px 0 0 0;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+
+}
+
+.reasons .reason_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-top: 35px;  
+
+}
+
+.reasons  .reason_item .reason_round{
+    width: 113px;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #1eacc7;
+    margin-right: 26px;
+    
+    
+}
+
+.reasons  .reason_item .reason_descr {
+    width: 341px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+    color: #202020;
+    hyphens: auto;
+}
+
+.reasons .reason_item .reason_descr span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+.reasons .reason_item .reason_descr.last {
+    padding-bottom: 20px;
+}
